@@ -1,0 +1,52 @@
+/* 导航栏样式 */
+logo {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+nav {
+    background-color: rgb(37, 66, 83);
+    color: #f4f1de;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin-top: 8px;
+	margin-left: 20px;
+	margin-right: 10px;
+    color: #f4f1de;
+    transition: all 0.2s ease-in-out;
+}
+nav .searchBox {
+    position: relative;
+    left: 5%;
+    width: 30%;
+}
+nav a {
+	/* color: white; */
+	/* font-weight: bold; */
+	text-decoration: none;
+	font-size: 20px;
+    color: #f4f1de;
+	transition: all 0.2s ease-in-out;
+}
+nav li:hover {
+	transform: scale(1.1);
+}
+
+#loginButton {
+    margin-left: 170px;
+}
+
+  

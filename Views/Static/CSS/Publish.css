@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6F8A91; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.uploadBox {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.uploadBox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+#imageInput {
+    display: none;
+  }
+  
+  /* 设计自定义的上传文件按钮 */
+.upload-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  /* 当鼠标悬停在上传文件按钮上时，增加背景色的变化 */
+.upload-btn:hover, #submitButton:hover{
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 5%; */
+    padding: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+#imagePreview {
+    display: flex;
+    max-width: 750px;
+    max-height: 750px;
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+form button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    font-size: large;
+}
+
+input {
+    font-size: large;
+}
+
+textarea {
+    font-size: large;
+    height: 90px;
+}
+
+.publishTitle {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

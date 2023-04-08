@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心页</title>
+    <link rel="stylesheet" href="../Static/CSS/UserCenter.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../Static/Javascript/UserCenter.js"></script>
+</head>
+<body>
+    <?php include('../Components/Navigator_after.html'); ?>
+    <div class="userCenterTitle">用户中心</div>
+    <div class="userCenterForm">
+        <div class="userInfoForm">
+            <div class="title">用户信息</div>
+            <div class="name">用户名：&emsp;&emsp;Sprinkles</div>
+            <div class="email">邮箱：&emsp;&emsp;&emsp;example@gmail.com</div>
+            <div class="tel">电话号码：&emsp;19100000000</div>
+            <div class="address">地址：&emsp;&emsp;&emsp;上海，中国</div>
+            <div class="pocket">账户余额：&emsp;1000&emsp;&emsp;</div>
+            <div class="charge">
+                <input class="chargeInput" placeholder="请输入充值数额">
+                <button class="chargeButton">充值</button>
+            </div>
+        </div>
+       <div class="promRecord">
+            <div class="title">我发布的艺术品</div>
+            <table border="1">
+                <tr>
+                    <th>艺术品id</th>
+                    <th>标题</th>
+                    <th>发布时间</th>
+                    <th>状态</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td onclick="gotoDetail()">自由引导人民</td>
+                    <td>2023/4/5</td>
+                    <td>未售出</td>
+                </tr>
+            </table>
+       </div>
+       <div class="buyRecord">
+            <div class="title">我买到的艺术品</div>
+            <table border="1">
+                <tr>
+                    <th>艺术品id</th>
+                    <th>标题</th>
+                    <th>发布时间</th>
+                    <th>成交价格</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+    <?php include('../Components/Bottom.html'); ?>
+</footer>
+</html>

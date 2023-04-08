@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>搜索页</title>
+    <link rel="stylesheet" href="../Static/CSS/SearchPage.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../Static/Javascript/SearchPage.js"></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <?php include('../Components/Navigator_nosearch.html'); ?>
+    <div class="searchForm">
+        <div class="searchBox">
+            <?php include('../Components/Search.html');?>
+        </div>
+        <div class="searchSelectBoxes">
+            <div class="searchBy">
+                <label for="search" class="searchLabel">搜索依据：</label>
+                <select name="searchDep" id="searchDep" class="searchSelect">
+                  <option value="default">艺术品</option>
+                  <option value="views">艺术家</option>
+                </select>
+            </div>
+            <div class="sortBy">
+                <label for="sort" class="sortLabel">排序依据：</label>
+                <select name="sort" id="sort" class="sortSelect">
+                  <option value="default">默认排序</option>
+                  <option value="views">访问量</option>
+                  <option value="price">价格</option>
+                </select>
+              </div>
+        </div>
+        <div class="searchResult">
+            
+        </div>
+    </div>
+    <?php include('../Components/Bottom.html'); ?>
+</html>

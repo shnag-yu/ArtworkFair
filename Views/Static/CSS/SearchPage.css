@@ -1,0 +1,33 @@
+body {
+    background-color: #6F8A91; 
+    margin: 0;
+    padding: 0;
+}
+.searchBox {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0;
+    left: 39%;
+    width: 30%;
+}
+
+.searchSelectBoxes {
+    display: flex; /* 设置弹性布局 */
+    justify-content: center; /* 水平居中 */
+}
+.searchLabel {
+    font-size: 12px;
+}
+.sortLabel {
+    font-size: 12px;
+}
+.searchBy, .sortBy {
+    margin: 0 10px; /* 设置选择框之间的间距 */
+}
+.searchLabel, .sortLabel {
+    margin-right: 0px; /* 设置标签与选择框之间的间距 */
+}
+.searchSelect, .sortSelect {
+    font-size: 10px;
+    padding: 2px;
+}
