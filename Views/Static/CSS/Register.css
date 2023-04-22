@@ -1,0 +1,64 @@
+*{
+    user-select: none;/*页面不允许做粘贴复制*/
+}
+
+body{/*背景参数*/
+    background: url(../Images/background/139020.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.registerForm {/*登录界面框*/
+    position: relative;
+    margin-top: 110px;
+    left: 50%;
+    margin-left: -250px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    height: 575px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+label > input{
+    outline: none;
+    border: none;
+    background-color: rgba(238, 237, 237, 0);
+    width: 90%;
+    height: 35px;
+    margin-top: 25px;
+    border-bottom: 2px solid rgb(138, 138, 138);
+    font-size: 20px;
+}
+
+#submit_btn{/*提交按钮*/
+    outline: none;
+    border: none;
+    background-color: #59c2c5;
+    width: 30%;
+    height: 43px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.warninfo{/*输入框输入出现错误时的提醒信息*/
+    color:rgb(46, 46, 46);
+    font-size:x-small;
+}
+
+/*验证码框*/
+#canvas{
+    margin-left: 15px;
+    height:35px;
+    width:110px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6F8A91; 
+    margin: 0;
+    padding: 0;
+}
+
+.CommodityForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 2rem;
+}
+
+.CommodityImg, .CommodityInfo, .tradeInfo, .CommdityIntro {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.CommodityImg {
+    flex: 1;
+    max-width: 50%;
+}
+
+.CommodityImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.CommodityInfo, .tradeInfo {
+    flex: 1;
+    max-width: 25%;
+}
+
+.CommdityIntro {
+    flex-basis: 100%;
+}
+
+.CommdityIntro > .intro {
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.introWord {
+    text-indent: 2em;
+    line-height: 1.5;
+    font-size: large;
+}
+
+.title, .author, .year, .era, .style, .width, .height, .promulgator, .promDate, .price, .soldStatus {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: larger;
+}
+
+.commodityTitle, .tradeTitle {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: x-large;
+    text-align: center;
+}
+
+.CommodityDetailTitle {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    /* font-weight: bolder; */
+    color:black;
+}

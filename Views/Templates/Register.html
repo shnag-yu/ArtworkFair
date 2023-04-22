@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="../Static/Javascript/Register.js"></script>
+        <meta charset="utf-8">
+        <meta name="login" content="width=device-width, initial-scale=1.0">
+        <title>登录</title>
+        <link rel="stylesheet" type="text/css" href="../Static/CSS/Register.css"/>
+    </head>
+    <body>
+       <!-- 登录框 -->
+        <form class="registerForm" action="?p=login&m=getLogin" method="post">
+            <h1 style="text-align:center">请注册</h1>
+            <label>
+                <input id="IDinput" onblur="IDtest()" name="name" type="text" placeholder="用户名"><br>
+                <input id="PasswordInput" onblur="PWtest()" name="userPassword" type="password" placeholder="密码"><br>
+                <input id="ConfirmPasswordInput" onblur="CPWtest()" name="confirmUserPassword" type="password" placeholder="确认密码"><br>
+                <input id="EmailInput" onblur="EmailTest()" name="email" type="email" placeholder="电子邮箱"><br>
+                <input id="TelInput" onblur="TelTest()" name="tel" type="tel" placeholder="电话号码"><br>
+                <input id="AddressInput" onblur="AddressTest()" name="address" type="address" placeholder="地址"><br>
+            </label>
+            <input type="submit" value="注册" id="submit_btn" ><br>
+            <a class="To_register" href="/Views/Templates/Login.html">已有账号？请点击登录</a>
+            &nbsp;&nbsp;
+            <a class="To_Main" href="/Views/Templates/MainPage.html">回到首页</a>
+        </form>
+    </body>
+    <?php include('../Components/Bottom.html'); ?>
+</html>
