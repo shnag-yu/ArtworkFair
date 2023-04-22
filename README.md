@@ -1,2 +1,0 @@
-# ArtworkFair
-OASD project
